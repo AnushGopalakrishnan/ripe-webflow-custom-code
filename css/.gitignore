@@ -1,0 +1,3 @@
+# Local HTTPS certs
+*.pem
+certs/
