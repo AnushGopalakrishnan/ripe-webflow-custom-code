@@ -1,3 +1,16 @@
+html::before {
+    content: 'DEV MODE';
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #00ff9c;
+    color: black;
+    font-weight: 700;
+    padding: 0.3rem 0.6rem;
+    z-index: 999999999999999999999999999999;
+    border-radius: 4px;
+}
+
 .w-webflow-badge {
     display: none !important;
 }
